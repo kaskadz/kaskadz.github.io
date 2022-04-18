@@ -1,0 +1,1 @@
+docker run --rm -v ${PWD}:/srv/jekyll -it -p 4000:4000 jekyll/jekyll:4.2.0 sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload"
